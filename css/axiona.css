@@ -15,72 +15,84 @@ select {font-family: 'HELVET75','arial', sans-serif ;}
 
 /*top section */
 
-.topsection {background: url(../img/full_bg_hp.jpg) center top no-repeat; width: 100%; margin-top:-50px;}
+.topsection {background: url(../img/full_bg_hp.jpg) center top no-repeat; width: 100%;font-size: 1.05rem;}
 
-
-
+.top-header {background:#333 ; font-family: 'HELVET47', arial ,sans-serif !important;;}
 
 /* CUSTOM TOP BAR */
 
-.top-bar {
-  height: 60px;
-  line-height: 60px;
+.top-bar {/*height: 60px; line-height: 60px;*/ top: 8px; left:-90px;background: transparent; }
 
-}
-.top-bar-section ul li > a {
-      /*line-height: 60px;*/
-      padding-left: 0px;
-      font-family: 'HELVET57', arial ,sans-serif !important; 
+.top-bar-section ul li > a {padding-left: 0px;font-size: 1.1rem; }
 
-      
-     
-}
+.logo {/*margin: 0px 50px 0px 0px*/}
 
-.top-bar .phone
- {
-	font-size: 1rem; 
+
+.logo h1 {margin:0; padding: 0}
+
+.phone {
 	color: #FFF;
 	line-height: 60px;
-	/*margin-left: 30px;*/
-	background:#666;
-	padding: 0px 4px 0 4px
+	font-family: 'HELVET47', arial ,sans-serif !important;
+	padding: 0px 5px 0px 5px;
+  background: #555;
+  text-align: center;
+  max-width: 180px;
+  font-size: 1.1rem;
+ 
+
+
 } 
-.top-bar .name {margin: 2px 30px 2px 0px;}
 
 
-.top-bar-section * {text-transform: uppercase !important; }
+.top-bar-section * {text-transform: uppercase !important;}
 
-.topbar-icon {width: 36px; height: 36px; line-height: 20px; background: transparent; }
+.topbar-icon {margin-top: 10px; position:absolute; top:0px; left:700px; width:160px}
 
-.top-bar-section ul li {/*line-height: 60px;*/ top: 10px; text-transform: uppercase !important;
-  }
+.top-bar-section ul li {}
 
-.active-sig {padding-top: 17px; margin-left: 5px}
+.active-sig {padding-top: 7px; margin-left: 5px}
 
+.active-sub {padding-top: 7px; margin-left: 5px;}
 
-
-.active-sub {padding-top: 17px; margin-left: 5px;}
-
-
-
-
-
-.top-bar-section li.active-sub:not(.has-form) a:not(.button) {background: #398d6e; border-radius:5px; color: #333; line-height: 30px; color: #FFF; padding-left: 5px; padding-right: 5px}
+.top-bar-section li.active-sub:not(.has-form) a:not(.button) {background: #398d6e; border-radius:5px; color: #333; line-height: 30px; color: #FFF; padding-left: 5px; padding-right:5px; display: block;}
 
 .top-bar-section li.active-sig:not(.has-form) a:not(.button) {background: transparent; border-radius:5px;  line-height: 30px;}
 
-.top-bar-section li:not(.has-form) a:not(.button) {padding: 1px 0px;line-height: 45px;background: #333333;}
+.top-bar-section li:not(.has-form) a:not(.button) {padding: 0px 10px;/*line-height: 45px;background: #333333;*/}
 
+.picto-nav  {margin-right: 5px; width: 36px;display: inline;}
 
-.top-bar-section .picto-nav  {margin-left: 5px}
-
-.top-bar-section .dropdown li {padding-left: 5px; padding-right: 5px}
+.top-bar-section .dropdown li {padding-left: 0px; padding-right: 0px}
 
 .top-bar-section .has-dropdown > a:after {
  
  border-color: rgba(214, 60, 55, 1) transparent transparent transparent;
+
 }
 
+@media only screen and (max-width: 63.938em) { 
+  .bloc-medium {margin-top: 20px}
+  .topsection {margin-top: 50px}
+  .top-bar { top: 0px; left:0px;}
+  .topbar-icon {left:70%;}
+  .spe1 {margin-top: 20px}
+  .topbar-icon {left:200px; width:160px}
+}
+
+
+
+
+@media only screen and (max-width: 30em) { 
+  .phone { max-width:100%;  font-size: 0.7rem;}
+  .picto-nav img {width: 20px;}
+  .topbar-icon {left:91%; margin-right: 1px; top: 5px}
+}
+
+
+.top-bar.expanded {margin-bottom: 15px;}
+
+/* END CUSTOM TOP BAR */
 
 /* Status projets*/
 
@@ -101,13 +113,6 @@ select {font-family: 'HELVET75','arial', sans-serif ;}
 
 
 
-
-/* END CUSTOM TOP BAR */
-
-
-@media only screen and (min-width: 40.063em) { 
-  .content-bloc {margin-top: 0px}
-}
 
 
 
@@ -247,6 +252,8 @@ select {font-family: 'HELVET75','arial', sans-serif ;}
      text-align: center;
 }
 
+
+
                         
 
 
@@ -288,25 +295,40 @@ a {text-decoration: none; color:#56a588 }
 
 @font-face {
   font-family: 'HELVET75';
-  src: url('../fonts/HELVET75.eot');
-  src: local(''), url('../fonts/HELVET75.woff') format('woff'), url('../fonts/HELVET75.ttf') format('truetype'), url('../fonts/HELVET75.svg') format('svg');
+  src: url('../fonts/HELVET75.woff') format('woff');
+  src: url('../fonts/HELVET75.eot'),
+       url('../fonts/HELVET75.ttf') format('truetype'),
+       url('../fonts/HELVET75.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'HELVET55';
-  src: url('../fonts/HELVET55.eot');
-  src: local('☺'), url('../fonts/HELVET55.woff') format('woff'), url('../fonts/HELVET55.ttf') format('truetype'), url('../fonts/HELVET55.svg') format('svg');
+  src: url('../fonts/HELVET55.woff') format('woff');
+  src: url('../fonts/HELVET55.eot'), url('../fonts/HELVET55.ttf') format('truetype'), url('../fonts/HELVET55.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
-@font-face {
+/*@font-face {
   font-family: 'HELVET57';
   src: url('../fonts/HELVET57.eot');
   src: local('☺'), url('../fonts/HELVET57.woff') format('woff'), url('../fonts/HELVET57.ttf') format('truetype'), url('../fonts/HELVET57.svg') format('svg');
   font-weight: normal;
   font-style: normal;
+}*/
+
+@font-face {
+    font-family: 'HELVET47';
+    src: url('../fonts/HELVET47.eot');
+    src: url('../fonts/HELVET47.eot') format('embedded-opentype'),
+         url('../fonts/HELVET47.woff2') format('woff2'),
+         url('../fonts/HELVET47.woff') format('woff'),
+         url('../fonts/HELVET47.ttf') format('truetype'),
+         url('../fonts/HELVET47.svg#HelveticaNeueLTStd47LightCondensed') format('svg');
 }
+
+
+
 @font-face {
   font-family: 'DANIELBD';
   src: url('../fonts/DANIELBD.eot');
@@ -396,14 +418,23 @@ img.sliderpic:hover {
 
 
 
-/* BOTTOM BAR */
+/* BARRE NL */
 
-.bottom-bar {width: 100%; height: 64px; background: url(../img/bottom_bar.png)top center no-repeat;}
+
+
+
+
+
+.bottom-bar {width: 100%; background: url(../img/bottom_bar.png)top center no-repeat; color: white}
 
 .bottom-bar-left, .bottom-bar-right {padding-top: 15px}
 
-.bottom-bar-right span {font-size: 1.1rem; color: #d63c37; font-weight: 700}
+.bottom-bar-right {font-size: 1.1rem; color: #d63c37; font-weight: 700}
 
+@media only screen and (max-width: 63.938em) { 
+  .bottom-bar {background:#333;}
+  .pictologo {display: none}
+}
 /* FOOTER */
 
 .footer {background: #7e7f7e;margin-top: 12px; padding-top: 12px; padding-bottom: 12px; color: #fff;}

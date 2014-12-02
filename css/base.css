@@ -1817,11 +1817,12 @@ meta.foundation-mq-topbar {
   .top-bar .toggle-topbar {
     position: absolute;
     right: 0;
-    top: 0; }
+    top: 0;
+    width: 100% }
     .top-bar .toggle-topbar a {
       color: white;
       text-transform: uppercase;
-      font-size: 0.8125rem;
+      font-size: 1rem;
       font-weight: bold;
       position: relative;
       display: block;
@@ -1830,11 +1831,12 @@ meta.foundation-mq-topbar {
       line-height: 45px; }
     .top-bar .toggle-topbar.menu-icon {
       top: 50%;
-      margin-top: -16px; }
+      margin-top: -16px;
+      background-color: #56a588 }
       .top-bar .toggle-topbar.menu-icon a {
         height: 34px;
         line-height: 33px;
-        padding: 0 40px 0 15px;
+        padding: 0px 40px 0 10px;
         color: white;
         position: relative; }
         .top-bar .toggle-topbar.menu-icon a span::after {
@@ -1853,9 +1855,9 @@ meta.foundation-mq-topbar {
     height: auto;
     background: transparent; }
     .top-bar.expanded .title-area {
-      background: #333333; }
+      background: #333; }
     .top-bar.expanded .toggle-topbar a {
-      color: #888888; }
+      color: white; }
       .top-bar.expanded .toggle-topbar a span::after {
         box-shadow: 0 0px 0 1px #888888, 0 7px 0 1px #888888, 0 14px 0 1px #888888; }
 
@@ -1997,7 +1999,7 @@ meta.foundation-mq-topbar {
       border: inset 5px;
       border-color: transparent transparent transparent rgba(255, 255, 255, 0.4);
       border-left-style: solid;
-      margin-right: 15px;
+      margin-right: 5px;
       margin-top: -4.5px;
       position: absolute;
       top: 50%;
@@ -2059,7 +2061,7 @@ meta.foundation-mq-topbar {
 .js-generated {
   display: block; }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width:32.063em) {
   .top-bar {
     background: #333333;
     overflow: visible; }
@@ -2071,7 +2073,9 @@ meta.foundation-mq-topbar {
     .top-bar .toggle-topbar {
       display: none; }
     .top-bar .title-area {
-      float: left; }
+      float: left;
+     
+       }
     .top-bar .name h1 a {
       width: auto; }
     .top-bar input,
@@ -2119,7 +2123,7 @@ meta.foundation-mq-topbar {
         background: #c02c27;
         color: white; }
     .top-bar-section .has-dropdown > a {
-      padding-right: 35px !important; }
+      padding-right: 20px !important; }
       .top-bar-section .has-dropdown > a:after {
         content: "";
         display: block;
