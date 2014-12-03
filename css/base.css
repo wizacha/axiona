@@ -2830,7 +2830,7 @@ meta.foundation-mq-topbar {
     color: #eeeeee;
     font-weight: normal;
     font-size: 1rem;
-   /* font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }*/
+   /* font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; */}
   .pricing-table .price {
     background-color: #f6f6f6;
     padding: 0.9375rem 1.25rem;
@@ -2838,7 +2838,7 @@ meta.foundation-mq-topbar {
     color: #333333;
     font-weight: normal;
     font-size: 2rem;
-   /*font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }*/
+   /*font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; */}
   .pricing-table .description {
     background-color: white;
     padding: 0.9375rem;
@@ -3131,7 +3131,7 @@ ul.pagination {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: outside;
- /* font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }*/
+ /* font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; */}
   .side-nav li {
     margin: 0 0 0.4375rem 0;
     font-size: 0.875rem;
@@ -3147,7 +3147,7 @@ ul.pagination {
     .side-nav li.active > a:first-child:not(.button) {
       color: #e27673;
       font-weight: normal;
-      /*font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }*/
+      /*font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; */}
     .side-nav li.divider {
       border-top: 1px solid;
       height: 0;
