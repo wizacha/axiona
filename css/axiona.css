@@ -567,7 +567,7 @@ line-height: 29px;
 
 /* MEDIA QUERIES */
 
-@media only screen and (max-width: 63.938em) { 
+@media only screen and (max-width: 64em) { 
   .bloc-medium {margin-top: 20px}
   .topsection {margin-top: 50px}
   .top-bar { top: 0px; left:0px;}
