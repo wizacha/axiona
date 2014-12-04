@@ -17,7 +17,7 @@ select {font-family: 'HELVET75','arial', sans-serif ;}
 
 .topsection {background: url(../img/full_bg_hp.jpg) center top no-repeat; width: 100%;font-size: 1.05rem;}
 
-.top-header {background:#333 ; font-family: 'HELVET47', arial ,sans-serif !important;;}
+.top-header {background:#333 ; font-family: 'HELVET47', arial ,sans-serif !important;}
 
 /* CUSTOM TOP BAR */
 
@@ -25,25 +25,9 @@ select {font-family: 'HELVET75','arial', sans-serif ;}
 
 .top-bar-section ul li > a {padding-left: 0px;font-size: 1.1rem; }
 
-.logo {/*margin: 0px 50px 0px 0px*/}
+.logo h1 {margin:0; padding: 0; line-height: 60px}
 
-
-.logo h1 {margin:0; padding: 0}
-
-.phone {
-	color: #FFF;
-	line-height: 60px;
-	font-family: 'HELVET47', arial ,sans-serif !important;
-	padding: 0px 5px 0px 5px;
-  background: #555;
-  text-align: center;
-  max-width: 180px;
-  font-size: 1.1rem;
- 
-
-
-} 
-
+.phone {color: #FFF;  line-height: 60px;  font-family: 'HELVET47', arial ,sans-serif !important;  padding: 0px 5px 0px 5px;  background: #555;  text-align: center;  max-width: 180px;  font-size: 1.1rem;} 
 
 .top-bar-section * {text-transform: uppercase !important;}
 
@@ -65,30 +49,7 @@ select {font-family: 'HELVET75','arial', sans-serif ;}
 
 .top-bar-section .dropdown li {padding-left: 0px; padding-right: 0px}
 
-.top-bar-section .has-dropdown > a:after {
- 
- border-color: rgba(214, 60, 55, 1) transparent transparent transparent;
-
-}
-
-@media only screen and (max-width: 63.938em) { 
-  .bloc-medium {margin-top: 20px}
-  .topsection {margin-top: 50px}
-  .top-bar { top: 0px; left:0px;}
-  .topbar-icon {left:70%;}
-  .spe1 {margin-top: 20px}
-  .topbar-icon {left:200px; width:160px}
-}
-
-
-
-
-@media only screen and (max-width: 30em) { 
-  .phone { max-width:100%;  font-size: 0.7rem;}
-  .picto-nav img {width: 20px;}
-  .topbar-icon {left:91%; margin-right: 1px; top: 5px}
-}
-
+.top-bar-section .has-dropdown > a:after { border-color: rgba(214, 60, 55, 1) transparent transparent transparent;}
 
 .top-bar.expanded {margin-bottom: 15px;}
 
@@ -260,13 +221,34 @@ select {font-family: 'HELVET75','arial', sans-serif ;}
 
 /* font */
 
-h1 {}
+h1 {font-size:1.75rem;  color: #333}
 
 h2 {text-transform: uppercase; font-size:1.5rem; color:#333; font-weight:700}
 
-h3 {}
+h3 {color: #333}
 
 a {text-decoration: none; color:#56a588 }
+
+/* Blockquotes */
+blockquote {
+  margin: 0 0 1.25rem;
+  padding: 0.5625rem 1.25rem 0 1.1875rem;
+  background: #f1f1f1;
+  border-left: 1px solid #dddddd; }
+  blockquote cite {
+    display: block;
+    font-size: 0.8125rem;
+    color: white; }
+    blockquote cite:before {
+      content: "\2014 \0020"; }
+    blockquote cite a,
+    blockquote cite a:visited {
+      color: #616161; }
+
+blockquote,
+blockquote p {
+  line-height: 1.6;
+  color: #616161; }
 
 .p-title {font-size:1.5rem; font-weight: 700; text-transform: uppercase;}
 
@@ -284,7 +266,7 @@ a {text-decoration: none; color:#56a588 }
 
 
 
-.txt-cit {font-family: 'DANIELBD',Sans-Serif; cursive; font-size:1.875rem;color: #333; padding-top: 50px; text-align: center}
+.txt-cit {font-family: 'DANIELBD',Sans-Serif; cursive; font-size:1.875rem;color: #333; padding-top: 80px; text-align: center}
 
 .txt-color1 {color: #fff}
 
@@ -312,7 +294,7 @@ a {text-decoration: none; color:#56a588 }
 /*@font-face {
   font-family: 'HELVET57';
   src: url('../fonts/HELVET57.eot');
-  src: local('☺'), url('../fonts/HELVET57.woff') format('woff'), url('../fonts/HELVET57.ttf') format('truetype'), url('../fonts/HELVET57.svg') format('svg');
+  src: local('â˜º'), url('../fonts/HELVET57.woff') format('woff'), url('../fonts/HELVET57.ttf') format('truetype'), url('../fonts/HELVET57.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }*/
@@ -332,7 +314,7 @@ a {text-decoration: none; color:#56a588 }
 @font-face {
   font-family: 'DANIELBD';
   src: url('../fonts/DANIELBD.eot');
-  src: local('☺'), url('../fonts/DANIELBD.woff') format('woff'), url('../fonts/DANIELBD.ttf') format('truetype'), url('../fonts/DANIELBD.svg') format('svg');
+  src: local('â˜º'), url('../fonts/DANIELBD.woff') format('woff'), url('../fonts/DANIELBD.ttf') format('truetype'), url('../fonts/DANIELBD.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -359,7 +341,7 @@ a {text-decoration: none; color:#56a588 }
 .slick-loading .slick-list { background: #fff url("./ajax-loader.gif") center center no-repeat; }
 .slick-list.dragging { cursor: pointer; cursor: hand; }
 
-.slick-slider .slick-track { -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
+.slick-slider .slick-track { -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); padding-top: 25px }
 
 .slick-track { position: relative; left: 0; top: 0; display: block; }
 .slick-track:before, .slick-track:after { content: ""; display: table; }
@@ -378,7 +360,7 @@ a {text-decoration: none; color:#56a588 }
 /* Icons */
 @font-face { font-family: arial; font-weight: normal; font-style: normal; }
 /* Arrows */
-.slick-prev, .slick-next {position: absolute; display: block; height: 45px; width: 29px; line-height: 0; font-size: 0; cursor: pointer;  color: transparent; top: 20%; padding: 0; border: none; outline: none; }
+.slick-prev, .slick-next {position: absolute; display: block; height: 45px; width: 29px; line-height: 0; font-size: 0; cursor: pointer;  color: transparent; top: 35%; padding: 0; border: none; outline: none; }
 
 .slick-prev { left: -25px; background:url(../img/left_arrow.png) top no-repeat;}
 .slick-prev:hover {background:url(../img/left_arrow.png)top no-repeat;}
@@ -400,7 +382,7 @@ a {text-decoration: none; color:#56a588 }
 .slick-dots li button { border: 0; background: transparent; display: block; height: 20px; width: 20px; outline: none; line-height: 0; font-size: 0; color: transparent; padding: 5px; cursor: pointer; }
 .slick-dots li button:hover, .slick-dots li button:focus { outline: none; }
 .slick-dots li button:hover:before, .slick-dots li button:focus:before { opacity: 1; }
-.slick-dots li button:before { position: absolute; top: 0; left: 0; content: "•"; width: 20px; height: 20px; font-family: "slick"; font-size: 40px; line-height: 20px; text-align: center; color:#0092f8; opacity: 0.25; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+.slick-dots li button:before { position: absolute; top: 0; left: 0; content: "â€¢"; width: 20px; height: 20px; font-family: "slick"; font-size: 40px; line-height: 20px; text-align: center; color:#0092f8; opacity: 0.25; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 .slick-dots li.slick-active button:before { color: black; opacity: 0.75; }
 */
 
@@ -420,16 +402,15 @@ img.sliderpic:hover {
 
 /* BARRE NL */
 
-
-
-
-
-
 .bottom-bar {width: 100%; background: url(../img/bottom_bar.png)top center no-repeat; color: white}
 
 .bottom-bar-left, .bottom-bar-right {padding-top: 15px}
 
 .bottom-bar-right {font-size: 1.1rem; color: #d63c37; font-weight: 700}
+
+.bottom-bar-right .inline-list > li {margin-left: 0.5rem}
+
+.pictophone {line-height: 60px}
 
 @media only screen and (max-width: 63.938em) { 
   .bottom-bar {background:#333;}
@@ -445,9 +426,9 @@ img.sliderpic:hover {
 
 
 
-.footer  h2 {color: #fff; font-size: 1.1rem}
+.footer  h2 {color: #fff; font-size: 1.0rem; font-weight: none;}
 
-.footer p {/*text-transform: uppercase;*/   font-family: 'HELVET57','arial', sans-serif; line-height:10px; font-size: 0.700rem;}
+.footer p {/*text-transform: uppercase;*/   font-family: 'HELVET47', arial ,sans-serif !important; line-height:10px; font-size: 0.700rem;}
 
 
 .copyright {text-align: center;  text-transform: uppercase; color: #7e7f7e; font-size: 0.750rem; padding:12px 0 12px;}
@@ -473,11 +454,11 @@ img.sliderpic:hover {
 
 .p-eval {float: left; width: 50%;margin-bottom: 10px;}
 
-.titlesection {background: url(../img/bgtitle.png) repeat-x;margin-top: 15px; margin-bottom: 15px}
+.titlesection {background: url(../img/bgtitle.png) repeat-x;margin-top: 35px; margin-bottom: 15px}
 
 .titlesection span {font-size: 2rem; background: #FFF;}
 
-.titlesection h1 {margin: 0; padding: 0}
+.titlesection h1 {margin: 0; padding: 0; color: #333}
 
 .titlesection .button {margin: 23px 0px 0px 30px}
 
@@ -496,7 +477,7 @@ img.sliderpic:hover {
 
 .detail-projet-cont {background:#FFF;}
 
-.bloc-projet-detail {font-size:1.063rem; border: 1px solid #CCC; max-height: 390px; }
+.bloc-projet-detail {font-size:1.063rem; border: 1px solid #CCC; max-height: 390px;margin-bottom: 20px }
 
 .logo-societe {max-height: 70px; text-align: center;padding: 5px }
 
@@ -523,7 +504,7 @@ img.sliderpic:hover {
 
 .status-detail {height:30px; text-align: center; font-size:1rem; background: #e3e3e3; border-top: 1px solid #CCC; line-height: 30px }
 
-.bottom-projet {line-height: 100px}
+.bottom-projet {line-height:60px}
 
 .flex-video {
   position: relative;
@@ -581,3 +562,31 @@ line-height: 29px;
 
 
 .detail-projet-cont h2 {font-size: 1.875rem; color: #cc3333; text-transform: inherit !important}
+
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 63.938em) { 
+  .bloc-medium {margin-top: 20px}
+  .topsection {margin-top: 50px}
+  .top-bar { top: 0px; left:0px;}
+  .topbar-icon {left:70%;}
+  .spe1 {margin-top: 20px}
+  .topbar-icon {left:200px; width:160px}
+  .bloc-nl img {display: none}
+  .titlesection {margin-top: 75px;}
+}
+
+
+
+
+@media only screen and (max-width: 30em) { 
+  .phone { width:auto;  font-size: 0.6rem; background: none; text-align: left}
+  .picto-nav img {width: 20px;}
+  .topbar-icon {left:91%; margin-right: 1px; top: 5px}
+  .bottom-bar {font-size: 80%}
+  .bottom-bar-right .inline-list img {width: 25px; margin-left: 2px}
+  .pictophone img {display: none}
+  .bloc-nl img {display: none}
+}
