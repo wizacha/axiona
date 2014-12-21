@@ -179,7 +179,9 @@ select {font-family: 'HELVET75','arial', sans-serif ;}
 
 .bloc-press-content {padding: 12px; color: #fff; background-color:#333}
 
-.bloc-events-content {padding: 12px; color: #333; background-color:#ffddaf}
+.bloc-events-content {padding: 12px; color: #333; background-color:#abd9c8}
+
+.bloc-events-content .date {background: #79c8ab}
 
 .bloc-actu-content p; .bloc-press-content p {font-size: 0.813rem}
 
@@ -410,7 +412,11 @@ img.sliderpic:hover {
 
 .bottom-bar-right .inline-list > li {margin-left: 0.5rem}
 
-.pictophone {line-height: 60px}
+.bottom-bar .button {font-size: 14px; margin-left: 10px}
+
+.bottom-bar input {background:#fff url(../img/picto_email.png) no-repeat right;}
+
+.pictophone {line-height: 60px; color: #d63c37; font-weight: bold }
 
 @media only screen and (max-width: 63.938em) { 
   .bottom-bar {background:#333;}
